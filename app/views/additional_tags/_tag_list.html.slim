@@ -5,7 +5,7 @@
         = l :field_tag_list
         ' :
     - if defined?(editable) && editable
-      #tags-data
+      #tags-data.value
         = additional_tag_links entry.tags,
                                project: @project,
                                unsorted: defined?(unsorted) ? unsorted : false,
